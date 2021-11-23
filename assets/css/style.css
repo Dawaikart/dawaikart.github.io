@@ -1115,9 +1115,8 @@ section {
 @media (max-width: 991px) {
   .logo--image {
     padding-top: 55px;
-    place-items: center;
     position: absolute;
-    height: 200px;
+    height: 210px;
     left: 60px;
     top:0;
     max-height: unset !important;
