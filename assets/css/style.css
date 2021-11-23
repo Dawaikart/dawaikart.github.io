@@ -1101,3 +1101,25 @@ section {
   font-weight: 400;
   color:#00477F;
 }
+
+.logo--image {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  height: 235px;
+  left: 60px;
+  top:0;
+  max-height: unset !important;
+}
+
+@media (max-width: 991px) {
+  .logo--image {
+    padding-top: 55px;
+    place-items: center;
+    position: absolute;
+    height: 200px;
+    left: 60px;
+    top:0;
+    max-height: unset !important;
+  }
+}
